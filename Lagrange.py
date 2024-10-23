@@ -17,6 +17,7 @@ def lagrange_function(x_points, y_points, x):
         
         
         P += y_points[i] * L_i
+        
 
     return P
 
@@ -30,7 +31,7 @@ def main():
         return
 
    
-    x_value = float(input("Enter the x value to calculate: "))
+    x_value = (float)(input("Enter the x value to calculate: "))
     
     
     lagrange_value = lagrange_function(x_points, y_points, x_value)
