@@ -5,10 +5,8 @@ def lagrange_function(x_points, y_points, x):
     
     n = len(x_points)
     P = 0
-    
-    
 
-    for i in range(n):
+    for i in range(n):  
         
         L_i = 1
         for j in range(n):
