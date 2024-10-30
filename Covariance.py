@@ -55,7 +55,7 @@ for row in cov_matrix:
 
 
 
-#*القانون
+#*القانون 
 #*Cov(X,Y)= 1/(m−1) i=1..m ∑(X𝑖-Xˉ)(Y𝑖− Yˉ)
 
 #*   X𝑖 and 𝑌𝑖 are the individual sample points,
