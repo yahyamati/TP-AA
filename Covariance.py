@@ -21,7 +21,7 @@
 
 def calculate_covariance_matrix(data):
     n = len(data[0])  # nmbr of variable
-    m = len(data)     # nmbre of sample (cars)
+    m = len(data)     # nmbrs of sample (cars)
 
      # Calculate means of each variable
     means = [sum(column) / m for column in zip(*data)]
