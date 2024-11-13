@@ -81,8 +81,7 @@ def calculate_covariance_matrix(data):
 def calculate_standard_deviation(data):
     m = len(data)      # Number of samples
     means = [sum(column) / m for column in zip(*data)]
-    
-    
+
     std_devs = []
     for i in range(len(data[0])):
         variance = sum((data[j][i] - means[i]) ** 2 for j in range(m)) / (m - 1)
