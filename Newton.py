@@ -25,7 +25,6 @@ def newton_interpolation(x_points, y_points, x):
     result = coefficients[0]
     n = len(x_points)
     
-    
     for i in range(1, n):
         term = coefficients[i]
         for j in range(i):
